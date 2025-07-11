@@ -53,7 +53,7 @@ export const ProductDetail = ({ product }: Props) => {
             –
           </Button>
           <span className="text-lg font-semibold">{quantity}</span>
-          <Button onClick={onAddItem}>+</Button>
+          <Button variant="outline" onClick={onAddItem}>+</Button>
         </div>
       </div>
     </div>
